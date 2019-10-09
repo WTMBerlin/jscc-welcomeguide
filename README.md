@@ -32,11 +32,11 @@ We will provide information about tools for macOS and Windows in this guide. If 
 
 Important :speaker:: Get your personal invite to our WTM slack workspace by typing your email [here](https://slack.wtmberlin.com/).
 
-On our `#js-crash-course` channel you will be able to ask questions, get support and share the link of your homework so we can review it and give you feedback.
+On our `#js-crash-course` channel you will be able to ask questions, get support and share the link of your homework so we can review it and give you feedback. If you cannot see it on the left menu of the slack app under **Channels**, you can search for it after clicking on the title.
 
 ## Visual Studio Code
 
-[Visual Studio Code](https://code.visualstudio.com/) is the IDE (Integrated Development Environment) we will use during the course. In simpler words, is the tool that will use to write code.
+[Visual Studio Code](https://code.visualstudio.com/) is the IDE (Integrated Development Environment) we will use during the course. In simpler words, is the tool that we'll use to write code.
 
 ## Terminal
 
@@ -44,7 +44,7 @@ On our `#js-crash-course` channel you will be able to ask questions, get support
 
 On the course we will mainly use the [integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal), but it is basically the same as the one you can find on your computer (macOS). We recommend you to have a basic understanding of how it works. You can take a look to this complete and fun-to-read [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a).
 
-**Windows users**: In the mentioned guide there is a link explaining how you can enable a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one) on your Windows machine. That won't be necessary as we will mainly use the integrated bash terminal of Visual Studio code, so you can make use of that one and jump directly to learn how to use the different commands. However, if you are used to the Windows console, or you want to learning how to use it, is totally fine. You can check [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) with useful info and commands.
+**Windows users**: In the mentioned guide there is a link explaining how you can enable a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one) on your Windows machine. That won't be necessary as we will mainly use the integrated bash terminal of Visual Studio code, so you can make use of that one and jump directly to learning how to use the different commands. However, if you are used to the Windows console, or you want to learn how to use it, is totally fine. You can check [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) with useful info and commands.
 
 ## Git and Github
 
