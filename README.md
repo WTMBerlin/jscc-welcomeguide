@@ -52,7 +52,11 @@ On the course we will mainly use the [integrated Terminal in Visual Studio Code]
 
 [Github](https://github.com/) is the tool we use to share and upload our projects. You will need a Github account and a basic knowledge of how to use it.
 
-We recommend you to go through [this guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) to learn how to work with both of them. It is a bit long but very complete, and you will get a good understanding on how to use them from scratch, and be able to use them during the course.
+:raising_hand: Feel free to check our [short intro](https://www.youtube.com/watch?v=NHwiSlz4Bi4&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI&index=2&t=4s) for start getting familiarized with Git.
+
+We recommend you to also go through [this guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) to learn how to work with both of them. It is a bit long but very complete, and you will get a good understanding on how to use them from scratch, and be able to use them during the course.
+
+Now is time to prove your git learnings playing a little! :point_right: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
 #### :innocent: This is the basic set up you will need for the first lesson. Continue to get the tools for the rest of the course.
 
