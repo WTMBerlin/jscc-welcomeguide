@@ -44,7 +44,8 @@ On our `#js-crash-course` channel you will be able to ask questions, get support
 
 On the course we will mainly use the [integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal), but it is basically the same as the one you can find on your computer (macOS). We recommend you to have a basic understanding of how it works. You can take a look to this complete and fun-to-read [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a).
 
-**Windows users**: In the mentioned guide there is a link explaining how you can enable a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one) on your Windows machine. That won't be necessary as we will mainly use the integrated bash terminal of Visual Studio code, so you can make use of that one and jump directly to learning how to use the different commands. However, if you are used to the Windows console, or you want to learn how to use it, is totally fine. You can check [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) with useful info and commands.
+**Windows users**: We will mostly be using the integrated terminal of Visual Studio Code. Depending on your Windows version, this will be either `powershell` or `cmd.exe`. Some commands will be a little different to those on macOS and Linux, but you can find helpful info in [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/).
+If you *really* want to use a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one), you can follow the instructions referenced in the [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a) above to enable one. 
 
 ## Git and Github
 
