@@ -114,6 +114,7 @@ On [this site](https://www.docker.com/products/docker-desktop) you can find the 
 If you don't manage to follow all the steps of that guide, don't worry. We will explore it more deeply in our class. You will just need to download and install Docker on your machine, and
 make sure before the class that is running (On Mac it should appear the little whale on the top menu bar, and if you click on it should indicate that is running. On Windows it will appear on the notifications area, bottom-right of the screen).
 
+**Windows 10 Home Edition users** (or other editions that doesn't support current Docker version): There is a workaround to make it work -> [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/). You can start from Step 2. If after finishing Step 3 you run `docker run hello-world` and get the response showed on the guide, you should be good to go for the class! Anyhow, if you can come a bit before the class we can check it together.
 
 ## Problem solving
 
