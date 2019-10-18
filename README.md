@@ -66,7 +66,18 @@ Now is time to prove your git learnings playing a little! :point_right: [https:/
 
 Node.js is an open-source, cross-platform, JavaScript run-time environment that executes JavaScript code outside of a browser. In an easier to understand explanation, Node.js is a JavaScript runtime environment that includes everything you need to execute a program written in JavaScript, and is what we will use to create our applications on this course.
 
-On [this website](https://nodejs.org/en/) you can find the links for installing the latest version of Node.js on your machine.
+On [this website](https://nodejs.org/en/) you can find the links for installing the latest version of Node.js on your Windows or masOs machine.
+
+For Linux users check out [this link](https://nodejs.org/en/download/package-manager/). Or use the following code snippent directly for Debian and Ubuntu based distributions:
+```
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs
+```
 
 On macOS or Linux you can also install it via [Homebrew](https://brew.sh/).
 First run the following command to install Homebrew in your machine (copy and paste it on a Terminal window and click enter):
