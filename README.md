@@ -53,9 +53,9 @@ If you *really* want to use a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_sh
 
 [Github](https://github.com/) is the tool we use to share and upload our projects. You will need a Github account and a basic knowledge of how to use it.
 
-:raising_hand: Feel free to check our [short intro](https://www.youtube.com/watch?v=NHwiSlz4Bi4&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI&index=2&t=4s) for start getting familiarized with Git.
+We recommend you to go through [this guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) or [this other one](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to learn how to work with both of them. They are a bit long but very complete, and you will get a good understanding on how to use them from scratch. This is important because we will ask you to upload your homeworks on your Github account and share the link with us so we can review it easily.
 
-We recommend you to also go through [this guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) to learn how to work with both of them. It is a bit long but very complete, and you will get a good understanding on how to use them from scratch, and be able to use them during the course.
+:raising_hand: Feel free to check our [short intro](https://www.youtube.com/watch?v=NHwiSlz4Bi4&list=PLNBb8OktVDKvAbiQIeQqSo0YFYtn3wLAI&index=2&t=4s) for start getting familiarized with Git.
 
 Now is time to prove your git learnings playing a little! :point_right: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
