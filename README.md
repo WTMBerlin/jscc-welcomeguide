@@ -45,7 +45,7 @@ On our `#js-crash-course` channel you will be able to ask questions, get support
 On the course we will mainly use the [integrated Terminal in Visual Studio Code](https://code.visualstudio.com/docs/editor/integrated-terminal), but it is basically the same as the one you can find on your computer (macOS). We recommend you to have a basic understanding of how it works. You can take a look to this complete and fun-to-read [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a).
 
 **Windows users**: We will mostly be using the integrated terminal of Visual Studio Code. Depending on your Windows version, this will be either `powershell` or `cmd.exe`. Some commands will be a little different to those on macOS and Linux, but you can find helpful info in [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/).
-If you *really* want to use a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one), you can follow the instructions referenced in the [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a) above to enable one. 
+If you *really* want to use a [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) Terminal (the default macOS and Linux one), you can follow the instructions referenced in the [guide](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a) above to enable one.
 
 ## Git and Github
 
@@ -68,6 +68,17 @@ Node.js is an open-source, cross-platform, JavaScript run-time environment that 
 
 On [this website](https://nodejs.org/en/) you can find the links for installing the latest version of Node.js on your Windows or masOs machine.
 
+On macOS you can also install it via [Homebrew](https://brew.sh/).
+First run the following command to install Homebrew in your machine (copy and paste it on a Terminal window and click enter):
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Once Homebrew is installed, run:
+```
+brew install node
+```
+
 For Linux users check out [this link](https://nodejs.org/en/download/package-manager/). Or use the following code snippent directly for Debian and Ubuntu based distributions:
 ```
 # Using Ubuntu
@@ -79,22 +90,13 @@ curl -sL https://deb.nodesource.com/setup_12.x | bash -
 apt-get install -y nodejs
 ```
 
-On macOS or Linux you can also install it via [Homebrew](https://brew.sh/).
-First run the following command to install Homebrew in your machine (copy and paste it on a Terminal window and click enter):
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+### Confirm that Node.js was properly installed (all platforms)
 
-Once Homebrew is installed, run:
-```
-brew install node
-```
-
-To check that it was properly installed, type the following command on the terminal:
+After you installed your Node.js on your machine (Windows, macOS or Linux), check that it was properly installed, type the following command on the terminal:
 ```
 node -v
 ```
-If you receive the version number (e.G: `v10.16.3`), everything is ok.
+If you receive the version number (e.g: `v10.16.3`), everything is ok. If not, try the previous steps again or ask on the #js-crash-course channel for help.
 
 ## MongoDB and Mongo Hub
 
