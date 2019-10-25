@@ -92,7 +92,7 @@ apt-get install -y nodejs
 
 ### Confirm that Node.js was properly installed (all platforms)
 
-After you installed your Node.js on your machine (Windows, macOS or Linux), check that it was properly installed, type the following command on the terminal:
+After you installed your Node.js on your machine (Windows, macOS or Linux), check that it was properly installed typing the following command on the terminal:
 ```
 node -v
 ```
