@@ -14,7 +14,7 @@
 
 ## Intro
 
-First of all, welcome to the 3rd Edition of our Javascript Crash Course! This is going to be a challenging but exciting journey for getting started in the programming world.
+First of all, welcome to the 3rd Edition of our JavaScript Crash Course! This is going to be a challenging but exciting journey for getting started in the programming world.
 
 In this guide we will go through all the steps and tools you will need to get ready for the classes. Please, make sure that you have all the tools installed and ready to go before starting the course.
 
@@ -66,7 +66,7 @@ Now is time to prove your git learnings playing a little! :point_right: [https:/
 
 Node.js is an open-source, cross-platform, JavaScript run-time environment that executes JavaScript code outside of a browser. In an easier to understand explanation, Node.js is a JavaScript runtime environment that includes everything you need to execute a program written in JavaScript, and is what we will use to create our applications on this course.
 
-On [this website](https://nodejs.org/en/) you can find the links for installing the latest version of Node.js on your Windows or masOs machine.
+On [this website](https://nodejs.org/en/) you can find the links for installing the latest version of Node.js on your Windows or macOS machine.
 
 On macOS you can also install it via [Homebrew](https://brew.sh/).
 First run the following command to install Homebrew in your machine (copy and paste it on a Terminal window and click enter):
@@ -79,7 +79,7 @@ Once Homebrew is installed, run:
 brew install node
 ```
 
-For Linux users check out [this link](https://nodejs.org/en/download/package-manager/). Or use the following code snippent directly for Debian and Ubuntu based distributions:
+For Linux users check out [this link](https://nodejs.org/en/download/package-manager/). Or use the following code snippet directly for Debian and Ubuntu based distributions:
 ```
 # Using Ubuntu
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -98,9 +98,9 @@ node -v
 ```
 If you receive the version number (e.g: `v10.16.3`), everything is ok. If not, try the previous steps again or ask on the #js-crash-course channel for help.
 
-## MongoDB and Mongo Hub
+## MongoDB and MongoHub
 
-On our 5th. lesson we will learn how to use [MongoDB](https://www.mongodb.com/), an open-source document database. [Here](https://docs.mongodb.com/manual/installation/) you can find the download links for every platform.
+On our 5th lesson we will learn how to use [MongoDB](https://www.mongodb.com/), an open-source document database. [Here](https://docs.mongodb.com/manual/installation/) you can find the download links for every platform.
 
 To install it using Homebrew (check on the Node.js point how to install it), submit on the terminal the following commands (one after the other):
 ```
@@ -114,7 +114,7 @@ We will also use a MongoDB GUI application (an interactive program where we can 
 
 They all work very similarly, but for this course we recommend MongoHub (only macOS, [download link](https://mongohub.s3.amazonaws.com/MongoHub.zip)) or Robomongo (both platforms, [download links](https://studio3t.com/download-now/)).
 
-The most important conmmands are `mongod` or `service mongodb start` for connecting to the database, and `brew services stop mongodb` to disconnect from it.
+The most important commands are `mongod` or `service mongodb start` for connecting to the database, and `brew services stop mongodb` to disconnect from it.
 
 
 ## Docker
@@ -125,7 +125,7 @@ In our last class we will learn how to deploy our application using [Docker](htt
 On [this site](https://www.docker.com/products/docker-desktop) you can find the download links for Mac and Windows and all the steps to follow.
 
 If you don't manage to follow all the steps of that guide, don't worry. We will explore it more deeply in our class. You will just need to download and install Docker on your machine, and
-make sure before the class that is running (On Mac it should appear the little whale on the top menu bar, and if you click on it should indicate that is running. On Windows it will appear on the notifications area, bottom-right of the screen).
+make sure before the class that it is running (On Mac it should appear the little whale on the top menu bar, and if you click on it should indicate that is running. On Windows it will appear on the notifications area, bottom-right of the screen).
 
 **Windows 10 Home Edition users** (or other editions that doesn't support current Docker version): There is a workaround to make it work -> [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/). You can start from Step 2. If after finishing Step 3 you run `docker run hello-world` and get the response showed on the guide, you should be good to go for the class! Anyhow, if you can come a bit before the class we can check it together.
 
@@ -133,13 +133,13 @@ make sure before the class that is running (On Mac it should appear the little w
 
 > The following info will be useful for when you are studying/working on your own. On the class, please raise your hand in the moment you get stuck! There will be several teacher assistants there to help you immediately so you can continue following the class.
 
-One of the skills a developer has to master, and also one of the most difficult to achieve at the beginning, is to find the correct answer for the problem they are facing. You are following the steps, everything seems to be fine and boom, you are receiving a weird error on the console or on VSCode. You have no idea why this is happening! You tried everything... So frustrating. But actually, this problem is faced for experienced programmers on their daily basis. And the solution is... to [Google](https://www.google.com/) it!
+One of the skills a developer has to master, and also one of the most difficult to achieve at the beginning, is to find the correct answer for the problem they are facing. You are following the steps, everything seems to be fine and boom, you are receiving a weird error on the console or in VSCode. You have no idea why this is happening! You tried everything... So frustrating. But actually, this problem is faced by experienced programmers on a daily basis. And the solution is... to [Google](https://www.google.com/) it!
 
-You will master this skill with time (what to actually type on google to find the answer you need), but at first you could try to just copy and paste on the google search the error you are receiving (try to only take the meaningful part of the error, for example: `Uncaught SyntaxError: Unexpected identifier`. You will probably get as first result a link to Stack overflow.
+You will master this skill with time (what to actually type in google to find the answer you need), but at first you could try to just copy and paste on the google search the error you are receiving (try to only take the meaningful part of the error, for example: `Uncaught SyntaxError: Unexpected identifier`. You will probably get as first result a link to Stack Overflow.
 
 [Stack overflow](https://stackoverflow.com/questions) is a community made by and for developers in which someone asks a question, and other developers answer it. If it's a good answer it gets upvotes, and if it's the answer that solved the problem, the OP (original poster) marks it with a green check. This is very useful for the developer community, because the problem we are currently facing most of the times someone else had it already, therefore here we can find many possible solutions to help with our coding struggles. Take a look [to some of the most entertaining questions](https://tutorialzine.com/2015/12/the-10-most-entertaining-stackoverflow-questions-of-all-time). :smiley:
 
-If you are practising at home, and after researching you are more than 20-30 minutes stuck on a problem, is time to ask for help on our channel!
+If you are practising at home, and after researching you are stuck on a problem for more than 20-30 minutes, is time to ask for help in our channel!
 
 ----------
 
@@ -157,7 +157,7 @@ If you are practising at home, and after researching you are more than 20-30 min
 - [x] Terminal basic learning
 - [x] Git and Github setup
 - [x] Node.js
-- [x] Mongo Hub and MongoDB
+- [x] MongoHub and MongoDB
 - [x] Docker
 
 
