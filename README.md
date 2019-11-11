@@ -117,7 +117,7 @@ brew install mongodb-community@4.2
 mongo --version
 ```
 
-If you see a message starting with _MongoDB shell version v4.0.3_, you are good to go :)
+If you see a message starting with _MongoDB shell version v4.0.4_ , you are good to go :)
 
 The most important commands are `mongod` or `service mongodb start` for connecting to the database, and `brew services stop mongodb` to disconnect from it. But we will see this more on depth during the class.
 
