@@ -7,7 +7,7 @@
 - [Terminal](#terminal)
 - [Git and Github](#git-and-github)
 - [Node.js](#nodejs)
-- [MongoDB and Robo3T](#mongodb-and-mongo-hub)
+- [MongoDB and Robo 3T](#mongodb-and-robo-3t)
 - [Docker](#docker)
 - [Problem Solving](#problem-solving)
 - [Checklist](#checklist)
@@ -98,7 +98,7 @@ node -v
 ```
 If you receive the version number (e.g: `v10.16.3`), everything is ok. If not, try the previous steps again or ask on the #js-crash-course channel for help.
 
-## MongoDB and Robo3T
+## MongoDB and Robo 3T
 
 ### MongoDB
 
@@ -122,11 +122,11 @@ If you see a message starting with _MongoDB shell version v4.0.3_, you are good 
 The most important commands are `mongod` or `service mongodb start` for connecting to the database, and `brew services stop mongodb` to disconnect from it. But we will see this more on depth during the class.
 
 
-### Robo3T
+### Robo 3T
 
 We will also use a MongoDB GUI application (an interactive program where we can easily see and manage the items of our database).
 
-They all work very similarly, but in this course we will use Robo3T ([download link](https://robomongo.org/download). Go to right side of the website, click on the button **Download Robo 3T**, and choose your platform).
+They all work very similarly, but in this course we will use Robo 3T ([download link](https://robomongo.org/download). Go to right side of the website, click on the button **Download Robo 3T**, and choose your platform).
 
 
 ## Docker
