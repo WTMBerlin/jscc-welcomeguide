@@ -8,6 +8,7 @@
 - [Git and Github](#git-and-github)
 - [Node.js](#nodejs)
 - [MongoDB and Robo3T](#mongodb-and-mongo-hub)
+- [Vue](#vue)
 - [Docker](#docker)
 - [Problem Solving](#problem-solving)
 - [Checklist](#checklist)
@@ -129,6 +130,42 @@ _Note: You might need to use `mongodb-community` instead of `mongodb-community@4
 We will also use a MongoDB GUI application (an interactive program where we can easily see and manage the items of our database).
 
 They all work very similarly, but in this course we will use Robo3T ([download link](https://robomongo.org/download). Go to right side of the website, click on the button **Download Robo 3T**, and choose your platform).
+
+
+## Vue
+
+To quickly setup a [Vue](https://vuejs.org/) application we will use [Vue-CLI tool](https://cli.vuejs.org/).
+
+Please follow [this guide](https://cli.vuejs.org/guide/installation.html) for installation.
+Run following command to install Vue-CLI globally:
+```
+npm install -g @vue/cli
+```
+You can check if you have the right version with this command:
+```
+vue --version
+```
+After that go to your project folder and type:
+```
+vue create frontend
+```
+For Windows users:
+```
+winpty vue.cmd create hello-world
+```
+You will be prompted to pick a preset. Select "Manually select features" and select following options: "Babel", "Router", "Vuex", "Linter / Formatter".
+Use history mode for router? "Y"
+Pick a linter / formatter config: "ESLint with error prevention only"
+Pick additional lint features: "Lint and fix on commit"
+Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? "In dedicated config files"
+Save this as a preset for future projects? "N"
+
+When installation is complete run following commands:
+```
+cd frontend
+npm run serve
+npm install -D axios pug pug-plain-loader
+```
 
 
 ## Docker
