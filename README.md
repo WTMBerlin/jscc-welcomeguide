@@ -153,18 +153,25 @@ For Windows users:
 ```
 winpty vue.cmd create hello-world
 ```
-You will be prompted to pick a preset. Select "Manually select features" and select following options: "Babel", "Router", "Vuex", "Linter / Formatter".
-Use history mode for router? "Y"
-Pick a linter / formatter config: "ESLint with error prevention only"
-Pick additional lint features: "Lint and fix on commit"
-Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? "In dedicated config files"
+If for some reasons you are not able to install global packages, please use following commands:
+```
+npm install @vue/cli -D
+npx vue --version
+npx vue create frontend
+```
+
+You will be prompted to pick a preset.\ Select "Manually select features" and select following options: "Babel", "Router", "Vuex", "Linter / Formatter".\
+Use history mode for router? "Y"\
+Pick a linter / formatter config: "ESLint with error prevention only"\
+Pick additional lint features: "Lint and fix on commit"\
+Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? "In dedicated config files"\
 Save this as a preset for future projects? "N"
 
 When installation is complete run following commands:
 ```
 cd frontend
 npm run serve
-npm install -D axios pug pug-plain-loader
+npm install -D pug pug-plain-loader
 ```
 
 
