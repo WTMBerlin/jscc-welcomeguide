@@ -10,6 +10,7 @@
 - [MongoDB and Robo3T](#mongodb-and-mongo-hub)
 - [Vue](#vue)
 - [Docker](#docker)
+- [Heroku](#heroku)
 - [Problem Solving](#problem-solving)
 - [Checklist](#checklist)
 
@@ -187,6 +188,14 @@ make sure before the class that it is running (On Mac it should appear the littl
 
 **Windows 10 Home Edition users** (or other editions that doesn't support current Docker version): There is a workaround to make it work -> [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/). You can start from Step 2. If after finishing Step 3 you run `docker run hello-world` and get the response showed on the guide, you should be good to go for the class! Anyhow, if you can come a bit before the class we can check it together.
 
+## Heroku
+
+After we create our containers with docker, we will deploy them to Heroku. When we deploy our apps, they will be accessible from anywhere in the world.
+
+To install Heroku CLI, please follow instructions on [Heroku Dev Center here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+
+Please also create a free Heroku account before coming to the class. Here you can create it: <https://signup.heroku.com/>
+
 ## Problem solving
 
 > The following info will be useful for when you are studying/working on your own. On the class, please raise your hand in the moment you get stuck! There will be several teacher assistants there to help you immediately so you can continue following the class.
@@ -217,6 +226,4 @@ If you are practising at home, and after researching you are stuck on a problem 
 - [x] Node.js
 - [x] MongoDB and Robo 3T
 - [x] Docker
-
-
-
+- [x] Heroku Account & CLI
